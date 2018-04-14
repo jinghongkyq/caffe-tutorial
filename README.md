@@ -1,4 +1,13 @@
 ## caffe-tutorial
+
+#### train in shell
+
+write to log
+```
+python train_resnet.py 2>&1 | tee resnet.log
+```
+
+
 #### Slice layer 
 
 Decompose `bottom` into several `tops` (Split layer copies `bottoms`, output to `tops`).
