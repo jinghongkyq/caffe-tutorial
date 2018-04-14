@@ -1,4 +1,4 @@
-# caffe-tutorial-
+## caffe-tutorial
 #### Slice layer 
 
 Decompose `bottom` into several `tops` (Split layer copies `bottoms`, output to `tops`).
